@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
 import ProductDetail from "./components/ProductDetals";
 import IconGrid from "./components/Icongrid";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
       </Router>
       </header>
       <main>
-        <IconGrid />
+        {/* <IconGrid /> */}
+        <Newsletter />
+        <Footer />
       </main>
     </div>
   );
